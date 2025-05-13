@@ -1,0 +1,231 @@
+/*
+Theme Name: The7 Child
+Theme URI: https://the7.io/
+Template: dt-the7
+Author: Dream-Theme
+Author URI: https://dream-theme.com/
+Description: Any design, any layout. No coding required. The7 is the most customisable WordPress theme on the market up to date. Add the power of Visual Composer, The7 Post Types, Ultimate Addons, Slider Revolution, and WooCommerce to the mix, and you'll get the ultimate web-site building toolkit! Theme is translation ready, compatible with WPML, SEO and mobile friendly (certified by Google).
+Tags: multipurpose,responsive,retina ready,SEO ready,mobile friendly,iOS,material design,clean,minimal,business,corporate,portfolio,creative,photography,one page site,micro site
+Version: 11.11.3.1713785663
+Updated: 2024-04-22 13:34:23
+
+*/
+
+
+.dt-owl-item {
+    background-color: #000;
+}
+
+.photoswipe-item {
+    left: 5%!important;
+}
+
+@media only screen and (max-device-width:479px) {
+    .photoswipe-item {left: 0%!important;}   
+} 
+
+.aio-icon-header+.aio-icon-description {
+    margin-top:0px!important;
+    line-height:18px!important;
+
+}
+
+.ggbread {
+    color: #aaaaaa;
+    font: normal 13px / 28px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    display: inline-flex;
+    text-align:center!important;
+}
+
+.ggbread ol {
+    list-style-type: none!important;
+}
+
+.ggbread li {
+    padding-left: 12px;
+}
+
+.ggbread li:first-child:before {
+    content: "";
+}
+
+.ggbread a {
+    color: #aaaaaa;
+    font: normal 13px / 28px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.ggbread li:before {
+    content: "/";
+    opacity: .5;
+    text-align: left;
+    z-index: 3;
+    padding-right: 12px;
+}
+
+@media only screen and (max-device-width:480px) {
+.ggbread {
+    color: #aaaaaa;
+    font: normal 13px / 28px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    display: -webkit-box;
+    text-align:center!important;
+}
+
+.ggbread ol {
+    list-style-type: none!important;
+    margin: 0 0 10px 0!important;
+    overflow: auto; 
+    overflow-y: hidden;
+}
+
+.ggbread li {
+    padding-left: 5px;
+}
+
+.ggbread li:first-child:before {
+    content: "";
+}
+
+.ggbread a {
+    color: #aaaaaa;
+    font: normal 13px / 28px "Arial", Helvetica, Arial, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.ggbread li:before {
+    content: "/";
+    opacity: .5;
+    text-align: left;
+    z-index: 3;
+    padding-right: 5px;
+}
+}
+
+.filenplus {
+    text-align:center;   
+}
+
+
+.titreportfolio {margin:100px 0 0 0;}
+@media only screen and (max-device-width:480px) {
+.titreportfolio {margin:0 0 0 0;}
+}
+
+.titreportfolio h1 {
+    font-weight: normal;
+    color: #ffffff!important;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.prixportfolio {
+    text-align: center;
+    font-size: 17px;
+}
+
+.titrevideo h2 {
+        font-size: 25px!important;
+        text-align: center;
+    margin-bottom: 15px;
+}
+
+/*  FORMULAIRE */
+
+#formulaire-responsive {
+	max-width:600px /*-- à modifier en fonction de la largeur désirée --*/;
+	margin:0 auto;
+        width:100%;
+}
+.rang-form {
+	width: 100%;
+}
+.demi-colonne, .colonne {
+	float: left;
+	position: relative;
+	padding: 0.65rem;
+	width:100%;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/**---------------- Media query ----------------**/
+@media only screen and (min-width: 48em) { 
+	.demi-colonne {
+		width: 50%;
+	}
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+	width: 100%!important;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box
+}
+.wpcf7 input[type="text"]:focus{
+	background: #fff;
+}
+.wpcf7-submit{
+
+	color: #69af36; 
+      font-family: 'Noto Sans', sans-serif;
+      border-color: #FFFFFF!important; 
+      font-size: 14px; 
+  	  line-height: 49px; 
+      height: 49px; 
+      font-weight: 600; 
+      background-color: #ffffff; 
+      border-radius: 4px; 
+          -moz-border-radius: 4px; 
+          -webkit-border-radius: 4px; 
+       text-transform: uppercase; 
+       border-width: 2px;  
+       padding-left: 26px; 
+       padding-right: 26px;
+}
+.wpcf7-submit:hover{
+	background: #FFFFFF!important;
+      color: #69af36!important;
+  }
+span.wpcf7-not-valid-tip{
+	text-shadow: none;
+	font-size: 12px;
+	color: #fff;
+	background: #ff0000;
+	padding: 5px;
+}
+div.wpcf7-validation-errors { 
+	text-shadow: none;
+	border: transparent;
+	background: #f9cd00;
+	padding: 5px;
+	color: #9C6533;
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}
+div.wpcf7-mail-sent-ok{
+	text-align: center;
+	text-shadow: none;
+	padding: 5px;
+	font-size: 12px;
+	background: #59a80f;
+	border-color: #59a80f;
+	color: #fff;
+	margin: 0;
+}
+
+
+div.wpcf7-validation-errors {
+
+    background: #FFF!important;
+}
+/*  FIN FORMULAIRE */
