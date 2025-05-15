@@ -35,7 +35,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/nav.png");
+    background-image: url("/media/nav.png");
 }
 
 nav ul {
@@ -183,22 +183,22 @@ iframe {
 /* SECTIONS */
 
 #accueil {
-    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg1.jpg");
+    background-image: url("/media/bg1.jpg");
     background-size: cover;
 }
 
 #about {
-    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg2.jpg");
+    background-image: url("/media/bg2.jpg");
     background-size: cover;
 }
 
 #services {
-    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg3.jpg");
+    background-image: url("/media/bg3.jpg");
     background-size: cover;
 }
 
 #realisations {
-    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg4.jpg");
+    background-image: url("/media/bg4.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -207,12 +207,12 @@ iframe {
 }
 
 #atelier {
-    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg5.jpg");
+    background-image: url("/media/bg5.jpg");
     background-size: cover;
 }
 
 #contact {
-    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg6.jpg");
+    background-image: url("/media/bg6.jpg");
     background-size: cover;
 }
 
