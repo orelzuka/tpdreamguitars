@@ -87,7 +87,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-header b{
+header b {
     color: #F5CB5C;
 }
 
@@ -183,22 +183,22 @@ iframe {
 /* SECTIONS */
 
 #accueil {
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/bg1.jpg");
+    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg1.jpg");
     background-size: cover;
 }
 
 #about {
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/bg2.jpg");
+    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg2.jpg");
     background-size: cover;
 }
 
 #services {
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/bg3.jpg");
+    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg3.jpg");
     background-size: cover;
 }
 
 #realisations {
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/bg4.jpg");
+    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg4.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -207,12 +207,12 @@ iframe {
 }
 
 #atelier {
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/bg5.jpg");
+    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg5.jpg");
     background-size: cover;
 }
 
 #contact {
-    background-image: url("/TP\ WEB\ HTML\ CSS/media/bg6.jpg");
+    background-image: url("/TP\ WEB\ HTML\ CSS\ Dream\ Guitars/media/bg6.jpg");
     background-size: cover;
 }
 
@@ -448,5 +448,3 @@ iframe {
     align-items: center;
     justify-content: space-evenly;
 }
-
-/* COMENT GIT HUB */
